@@ -12,7 +12,7 @@ function onMouseDown(event) {
 }
 
 function onMouseDrag(event) {
-  var baseSize = 4;
+  var baseSize = 6;
   var size = baseSize + event.delta.length;
   
   var path = new Path.Rectangle({
