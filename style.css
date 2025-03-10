@@ -1,0 +1,28 @@
+canvas {
+    width: 100%;
+    height: 100%;  
+    background: linear-gradient(to bottom, #010a21, #04244c);
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+.credits a{
+
+    text-decoration: none;
+    position: relative;
+    margin: 0;
+    bottom: 60px;
+    left: 2040px;
+    font-size: 250%;
+    color: #04244c;
+    text-shadow:
+    -1px -1px 0 #c445e6,
+    1px -1px 0 #c445e6,
+    -1px 1px 0 #c445e6,
+    1px 1px 0 #c445e6;
+    
+}
