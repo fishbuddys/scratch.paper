@@ -10,16 +10,14 @@ body {
   margin: 0;
   overflow: hidden;
 }
-
 .credits {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 100;
 }
-
 .credits a {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #04244c;
     text-decoration: none;
     text-shadow:
@@ -28,7 +26,6 @@ body {
     -1px 1px 0 #c445e6,
     1px 1px 0 #c445e6;
 }
-
 @media (max-width: 768px) {
     .credits a {
         font-size: 2rem;
